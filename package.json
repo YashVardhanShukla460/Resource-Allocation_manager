@@ -1,0 +1,36 @@
+{
+  "name": "resource-allocation-manager",
+  "version": "1.0.0",
+  "description": "Resource Allocation Manager with fair-share scheduling",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "seed": "node src/seed.js",
+    "start:ulimit": "bash scripts/run-with-ulimit.sh",
+    "test": "node -e \"console.log('No tests configured yet')\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YashVardhanShukla460/Resource-Allocation_manager.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/YashVardhanShukla460/Resource-Allocation_manager/issues"
+  },
+  "homepage": "https://github.com/YashVardhanShukla460/Resource-Allocation_manager#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.4",
+    "express": "^5.2.1",
+    "helmet": "^8.1.0",
+    "mongoose": "^9.2.1",
+    "morgan": "^1.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
