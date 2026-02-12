@@ -1,0 +1,15 @@
+{
+  "name": "default",
+  "totalResources": {
+    "cpu": 100,
+    "memory": 256000,
+    "storage": 1000000
+  },
+  "provisionStep": {
+    "cpu": 10,
+    "memory": 16000,
+    "storage": 50000
+  },
+  "utilizationThreshold": 80,
+  "updatedBy": "seed"
+}
